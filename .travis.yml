@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: n457Vq7oDxzCmVqAuHFLGe0cLonsq3Imu5j3fv5uFyYV1Qe2HrOikFrjdpgZl9XgA0+/ZxxHRUyeiuQ1/4bwMrZzOJT1QeoIU8CILNRzs+h26UtTtiprzfMeo9lKEPFdMp5+x1XV8+pTZKc5LdLHjmsGSpWdTV2VdaxBfe9ai0okAYvDocYjxHEE2RKDp5fOTKs4762du4jd8ReGxUXSaYBV+UesJrEW/kKY5N24QVjSSy9V0jJ1qqBm5K8gXU+lFkPlB821VugMPkiHSMz8D/i/kuVjA6qLPLbgG1J8BCOV4YsuJIWfPFboBli87nm3Ve587y1bInQp9Kia4/Z2XVpZtXbo9GjDMcE3xWkON7+TwOCYZddEwq01WN84Wir1kEN0QxQ7xtzuNhn4PgOZsLpLMEqo3u7w1Jlxw7kUxY8cOCKIYcWSFCnnKupABWm3KhEi6T48b9SeUoAz0KpTRaIiwc+hR7+Jo6bovqs6ZcLnwObXMxhrOxGvUy9xmM63SXyDPDkySnh8usCU00U9Dcty1DG1M+ErNaJp3aGmU0uGZb1AmQF+mt6o8VJ7hcm5Il6KpDNncKVgwfU69MGnFUAL3UcdSdBt5Wo2gtazYuvS8QHVl90cm3fVSN0LCr02Col8pMIGBoZcWrOzhD+sOuEuUnZU9QQzqBdfbKE+h7I=
+  app: polar-badlands-21073
+  on:
+    repo: hd21/blog-app-mongoose-challenge-solution
